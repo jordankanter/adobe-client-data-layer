@@ -47,7 +47,10 @@ const constants = {
     /** Represents an event triggered for any event push to the data layer */
     EVENT: 'datalayer:event',
     /** Represents an event triggered when the data layer has initialized */
-    READY: 'datalayer:ready'
+    READY: 'datalayer:ready',
+
+    /** Represents an event that needs to be persisted in some way (i.e. fired indefinitely for a certain amount of time) */
+    PERSIST: 'datalayer:persist'
   },
 
   /**
